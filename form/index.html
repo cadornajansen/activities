@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="container">
+        <div>
+          <h1>Login to Your Account</h1>
+          <span style="opacity: 0.8">Your Own Digital Campaign</span>
+        </div>
+        <div class="socials">
+          <button class="social-button">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-glyphs/ffffff/30/google-logo--v1.png"
+              alt="google-logo--v1"
+            />
+            <span>Login with Google</span>
+          </button>
+          <button class="social-button">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-glyphs/ffffff/30/mac-os.png"
+              alt="macos-logo--v1"
+            />
+            <span>Login with Apple</span>
+          </button>
+        </div>
+        <div class="divider">
+          <hr />
+          <span>OR</span>
+          <hr />
+        </div>
+        <div class="form-wrapper">
+          <form>
+            <input id="username" type="text" placeholder="User Name" />
+            <input id="password" type="password" placeholder="User Name" />
+            <div class="options">
+              <div class="round">
+                <input type="checkbox" checked id="checkbox" />
+                <label for="checkbox"></label>
+                <span>Remember Me?</span>
+              </div>
+              <div>
+                <span>Forget Password?</span>
+              </div>
+            </div>
+            <div class="submit">
+              <button>
+                <span> Login to Your Account </span>
+              </button>
+              <span style="color:rgba(255, 255, 255, 0.6)">
+                Not a member yet? <a href="#" style="color:white;font-weight:600;">Register Now!</a>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
